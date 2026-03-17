@@ -133,11 +133,11 @@ section#my-work {
     margin-bottom: 3em;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-    "img-1 img-1 img-2 img-3"
-    "img-1 img-1 img-4 img-5";
+    "img-1 img-2"
+    "img-3 img-4";
     gap: 1em;
 }
 
