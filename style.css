@@ -134,10 +134,10 @@ section#my-work {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     grid-template-areas:
     "img-1 img-2"
-    "img-3 img-4";
+    "text-1 text-2";
     gap: 1em;
 }
 
